@@ -1,0 +1,459 @@
+#icon{
+	width:10%; height:70px; 
+	margin-left:10px; margin-top:0px;
+	padding-top:10px; 
+	float:left;
+}
+#title{
+	width:80%; height:80px; 
+	margin-right:10px; margin-top:10px; margin-bottom:10px;  
+	float:left;
+}
+#titletop a{
+	font-size:21px; color: #ced1d2; text-decoration: none; display: block;font-weight: bold;
+}
+#titletop a:hover{color: #fff;}
+#titlemiddle {font-size:14px;color:#ced1d2}
+#titlebottom {font-size:14px;color:#ced1d2}
+* { margin:0; padding:0; }
+body, div, span, p, a, img, ul, ol, li,form, fieldset, legend, dl, dt, dd, blockquote, applet, object { border:0; }
+body { 
+  padding: 0; 
+  background: #fff url("../img/bg.jpg") repeat-x; 
+  font: 0.8em/1.5 "arial"; 
+  color: #354146; 
+  text-align: center; 
+}
+
+/* obecne odkazy --------------------------------------------------------------- */
+a {color:#1666a3;}
+a:link {color:#1666a3;}
+a:hover {color:#0b4775;}
+
+/* nadpisy --------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { margin:15px 0 10px 0; }
+h1 { font-size:200%; font-family: Georgia;}
+/*
+h1#titletop a{font-size:17px; color: #ced1d2; text-decoration: none; display: block;font-weight: normal;}
+h1#titletop a:hover{color: #fff;}
+h1#titletop span{font-size:14px;color:#ced1d2}
+*/
+h2 { font-size:130%; color: #354146;font-weight: bold; padding: 0;margin:0; }
+h3 { font-size:120%; }
+h4 { font-size:120%; }
+h5 { font-size:100%; }
+
+/* layout ---------------------------------------------------------------------- */
+#layout { 
+
+  text-align:left; 
+}
+  #container { 
+    clear: both;
+	//height:700px;
+  }
+  #intro{
+    background: #e6e8e9;height: auto;
+  }
+  #intro-in{
+    width:891px; 
+    margin:0 auto; 
+    padding: 20px 0;
+  }
+
+  	/* hlavicka ------------------------------------------------------------------ */
+  	#header {width:891px; text-align:left;
+      margin:0 auto; }
+    #ta{width:141px;float:right;}
+      
+        
+    /* horizontalni navigace --------------------------------------------------- */
+      #nav {width:891px; 
+      margin:0 auto; }
+      #nav ul {margin:0; padding:0; list-style:none;height: 35px;}
+      	#nav ul li {float:left; display:block; margin:0; padding:0;}
+      	#nav ul li a {
+          display: block; 
+          float: left;
+          font-size: 85%;
+          color: #fff;
+          text-decoration: none;
+          padding: 12px 20px 10px;
+          text-align: center;
+
+        }
+        #nav ul li a:hover {
+          color: #ced1d2;
+          text-decoration: underline;
+        }
+      	#nav ul li#active a {
+      	color: #101517;
+      	border: 1px solid #fff;border-bottom:1px solid #e6e8e9;
+        background:#e6e8e9; text-decoration:none;}
+  
+  
+  
+    .content {
+      padding: 0 0 0 0;
+      z-index: 10;
+      width:891px; 
+      margin:0 auto; 
+       
+    }
+    .content .in{
+      padding: 0px 20px;
+    }
+	.in { min-height:400px; }
+    p.intro{
+      background: url("../img/line.jpg");
+      line-height: 23px;
+      margin:0 0 0;
+    }
+    .shadow{
+      border-top: 1px solid #dddddd;
+      padding: 10px 0;
+      background: url("../img/shadow.jpg") no-repeat;
+    }
+    img.thumb{padding: 3px; background: #fff; border: 1px solid #d1d1d1;}
+    
+    .columns {list-style: none;margin:10px 0 0 0;padding:0; font-size: 90%;}
+    .columns li{float: left; width: 32%;}
+    .columns li.col2{border-left: 1px solid #d7d7d7;border-right: 1px solid #d7d7d7;}
+    .columns li h3{padding: 0 10px;color: #2e4650; margin: 0 0 5px;}
+    .columns li.col2 h3{padding-left: 20px;}
+    .columns li.col3 h3{padding-left: 20px;}
+    .columns li p{line-height: 22px;padding: 0 20px 0 10px; margin: 0; color: #3f4345;}
+    .columns li.col2 p{padding: 0 20px 0 20px;}
+    .columns li.col3 p{padding: 0 10px 0 20px;}
+    .columns li a.more{display: block;color: #1666a3;padding: 5px 0;}
+    .columns li a.more:hover{color: #0b4775; text-decoration: none;}
+
+  
+  
+  	/* paticka ----------------------------------------------------------------- */
+  	#footer {
+  	  width:891px; 
+      margin-top:30px; 
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom:0;
+      clear:both;
+      font-size: 85%;
+      padding-bottom: 70px;
+      color: #898989;
+    }
+    #footer a{color: #898989;}
+    #footer a:hover{color: #666666; text-decoration: none;}
+      #footer .f-left, #footer .f-right { padding: 0 10px; }
+
+
+
+
+/* odstavce -------------------------------------------------------------------- */
+p { margin:15px 0; }
+
+/* tabulky --------------------------------------------------------------------- */
+
+
+/* seznamy --------------------------------------------------------------------- */
+ul, ol { display:block; margin:15px 0 15px 40px; }
+ul ul, ul ul ul, ol ol, ol ol ol { margin:0; margin-left:20px; }
+ol { list-style-type:decimal; }
+ol ol { list-style-type:upper-alpha; }
+ol ol ol {list-style-type:lower-alpha; }
+li { display:list-item; }
+ul li a { text-decoration:underline; }
+
+/* definice -------------------------------------------------------------------- */
+dl { margin:15px 0; }
+dt { font-weight:bold; }
+dd { margin-left:30px; }
+
+/* ostatni --------------------------------------------------------------------- */
+fieldset { margin:15px 0; padding:10px; border:1px solid #CCC; }
+legend { margin-left:10px; font-size:100%; font-weight:bold; color:#000; }
+abbr, acronym, .help { border-bottom:1px dotted #CCC; cursor:help; }
+blockquote { margin:15px 20px; font-style:italic; }
+del, .del { text-decoration:line-through; }
+strong, .strong { font-weight:bold; }
+cite, em, q, var { font-style:italic; }
+code, kbd, samp  {font-family:monospace; font-size:110%; }
+hr { display:block; height:1px; margin:10px 0; padding:0; border:0 solid #CCC; background:#CCC; color:#CCC;} 
+.f-left {float:left;}
+.f-right {float:right;}
+.a-left, tr.a-left td {text-align:left;}
+.a-center, tr.a-center td {text-align:center;}
+.a-right, tr.a-right td {text-align:right;}
+.a-justify {text-align:justify;}
+.va-top {vertical-align:top;}
+.va-middle {vertical-align:middle;}
+.va-bottom {vertical-align:bottom;}
+.clear { clear:both; }
+.box { min-height:1px; }
+.box:after { display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:"."; }
+.noscreen { display:none; }
+.mleft10 { margin-left: 10px; }
+.mright10 { margin-right: 10px; }
+.mtop10 { margin-top: 10px; }
+.mbottom10 { margin-bottom: 10px; }
+
+/* univerzalni prvky ------------------------------------------------------------ */
+input.small{
+  width: 50px;
+}
+input.normal{
+  width: 146px;
+}
+.bigger {font-size:115%;}
+.smaller {font-size:85%;}
+
+.high {color:#00F;}
+.nonhigh {color:#777;}
+
+.foto{  display: block; border: 3px solid #ddd;}
+
+
+
+/*----------------------------------*/
+.error{
+  color:red;
+  font-weight:10px;
+}
+a{
+     text-decoration:none;
+}
+table.menu td{
+     padding-right:30px;
+     text-align:center;
+	 border:none;
+	 line-height:30px;
+	 font-size:11px;
+}
+table.border{
+  border-collapse:collapse;
+}
+table.border table.jadwal{
+  border-collapse:collapse;
+}
+table.form tr td{
+	border-top:1px #CCCCCC dashed;
+	padding:6px 5px;
+}
+table.border tr td{
+	border:1px solid #000;
+	padding:6px 5px;
+}
+table.data tr td{
+	border-top:1px #CCCCCC dashed;
+	padding:6px 5px;
+}
+table.data tr.tebal{
+  font-weight:bold;
+}
+table.data a:hover{
+  text-decoration:underline;
+}
+.absensi input[type=text]{
+	border:1px solid #585858;
+	background:#FFFFFF;
+	height:20px;
+}
+.form input[type=text]{
+	border:1px solid #585858;
+	background:#FFFFFF;
+	width:300px;
+	height:20px;
+}
+input[type=text]:focus,input[type=password]:focus{
+	background:#FFEADF;
+}
+textarea{
+	border:1px solid #585858;
+	background:#FFFFFF;
+	width:300px;
+	height:100px;
+}
+textarea:focus{
+	background:#FFEADF;
+}
+select{
+  border:1px solid #585858;
+	background:#FFFFFF;
+	height:20px;
+}
+input[type=submit]{
+  padding:2px 5px;
+}
+#info-mapel{
+  text-align:left;
+  float:right;
+  font-size:14px;
+  width:40%;
+  border-color:#333333;
+  border-width:3px;
+  border-style:double;
+  padding:3px;
+}
+#kelas-form{
+  text-align:left;  
+  float:left;
+  width:55%;
+}
+#sukses{
+  left:705px;
+  top:400px;
+  position:absolute;
+  color:#993399;
+  font-size:15px;
+  font-weight:bold;
+}
+#gerbang{
+  margin-top:30px;
+  color:#993399;
+  font-size:15px;
+  font-weight:bold;
+}
+.warn{
+  border:1px #FF0000 solid;
+  padding:4px 5px;
+  color:#00CC00;
+  width:150px;
+  text-align:center;
+}
+.note{
+  border:1px #CCCCCC dashed;
+  padding:5px;
+}
+.loginbox{
+  padding:20px;
+  border:5px solid #CCCCCC;
+  width:400px;
+}
+table.formlogin td{
+  padding:5px;
+  }
+/* paging */
+.pag_link{
+	background:#f8f8f8;
+	border:#EBEBEB 1px solid;
+	padding:3px 8px;
+	margin-left:3px;
+	margin-right:3px;
+	color:#000000;
+	}
+.pag_link_cur{
+	background:#dff1c4;
+	border:#f8f8f8 1px solid;
+	padding:3px 8px;
+	margin-right:3px;
+	margin-left:3px;
+	color:#000000;
+	}
+.paging{
+	margin-left:7px;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	text-align:left;
+	}
+.paging a{
+	border:none;
+	color:#000;
+	}
+.paging a:hover{
+	text-decoration:underline;
+	}
+/********************************************/
+table.siswa{
+	border-collapse: collapse;
+	width:100%;
+}
+table.siswa th,td{
+	border:solid 1px black;
+	font-size:12px;
+}
+table.siswa th{
+	color:white;
+	background:grey;
+}
+table.form td,table.admin td{
+	border:solid 1px white;
+	font-size:12px;
+}
+table.absensi  {
+	border-collapse: collapse;
+	width:45%;
+}
+table.absensi td{
+	border:solid 1px white;
+	font-size:12px;
+}
+#baris1{
+	width:100%;
+	height:60%;
+	padding:0;
+}
+#baris2{
+	width:100%;
+	height:40%;
+	padding:0;
+}
+#sel11,#sel21{
+	width:60%;
+	height:94%;
+	float:left;
+	margin-top:1%;margin-left:1%;
+	padding:0;
+}
+#sela,#selb{
+	width:48%;
+	height:94%;
+	float:left;
+	margin-top:1%;margin-left:1%;
+	padding:0;
+}
+#sel12,#sel22{
+	width:36%;
+	height:94%;
+	float:left;
+	margin-top:1%;margin-left:1%;
+	padding:0;
+}
+#fotoadmin{
+	width:27%;
+	float:left;
+}
+#profiladmin{
+	width:68%;
+	float:left;
+}
+#judul{
+	padding-left: 7px;
+	color:white;
+	background:grey;
+	text-align:center;
+}
+#fill{
+	padding-left: 7px;
+	padding-top: 7px;
+}
+.full{
+	height:100%;
+}
+#log{
+	font-weight:bold;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	padding:30px;
+}
+table.log {
+	border-collapse: collapse;
+	width:45%;
+}
+table.log td{
+	border:solid 1px white;
+	font-size:12px;
+}
+

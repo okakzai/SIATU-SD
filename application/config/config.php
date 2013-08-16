@@ -18,14 +18,11 @@ $config['modules_locations'] = array(
 */
 $config['base_url']	='http://localhost/siatusd/';
 $config['app_name']	='Sistem Informasi Akademik Terpadu';
-$config['client_name']	='Sekolah Dasar Negeri Bogem 1 - Kecamatan Kawedanan, Kabupaten Magetan';
+$config['client_name']	='Sekolah Dasar Negeri Bogem 1';
 $config['addr_name']	='Jalan Raya Gorang-Gareng - Magetan Telp. 0351-439970 Email: sdnbogem1@yahoo.co.id';
-$config['webdev_name']	='kakzai';
-<<<<<<< HEAD
+$config['webdev_name']	='okakzai';
 $config['webdev_link']	='http://facebook.com/okakzai/';
-=======
-$config['webdev_link']	='http://facebook.com/kakzai/';
->>>>>>> 161b261217f68952e66d71b7a5ebf60a929c89fc
+
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -36,11 +33,7 @@ $config['webdev_link']	='http://facebook.com/kakzai/';
 | variable so that it is blank.
 |
 */
-<<<<<<< HEAD
 $config['index_page'] = '';
-=======
-$config['index_page'] = 'index.php';
->>>>>>> 161b261217f68952e66d71b7a5ebf60a929c89fc
 
 /*
 |--------------------------------------------------------------------------
